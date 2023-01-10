@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pseudo classes</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: rgb(201, 201, 201);
+    }
+
+    .container{
+      width: 100vw;
+      height: 150px;
+      background-color: bisque;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 2px black solid;
+    }
+
+    .para{
+      margin: 0;
+      font-size: 30px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .para:hover{
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    #text{
+      font-size: 50px;
+      font-family: Impact, 'Arial Narrow Bold', sans-serif;
+      text-align: right;
+      margin-right: 10px;
+    }
+
+    input{
+      padding: 20px;
+      font-size: 14px;
+      width: 300px;
+      text-align: center;
+    }
+
+    input:focus{
+      outline: none;
+      border: 5px black dotted;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    a:link {
+      color: black;
+    }
+
+    a:visited{
+      color: red;
+    }
+
+    a:active{
+      color: rgb(0, 106, 255);
+      font-size: 34px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="para">My text size change when you Hover over me</p>
+  </div>
+
+  <div class="container">
+    <input type="text" placeholder="My border change when you focus on me">
+  </div>
+
+  <div class="container">
+    <a target="_blank" href="https://www.google.com/">If you visit me my font color changes</a>
+  </div>
+  <div class="container">
+    <a target="_blank" href="https://www.google.com/">If you keep pressing mouse on me my font size changes</a>
+  </div>
+
+</body>
+</html>

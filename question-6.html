@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>India</title>
+  <style>
+    body{
+      margin: 0;
+    }
+
+    .title{
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    hr{
+      margin: 0;
+    }
+
+    .container{
+      display: flex;
+    }
+
+    .left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50vw;
+      height: 95vh;
+    }
+
+    img{
+      width: 80%;
+      background-color: aquamarine;
+    }
+
+    map{
+      background-color: cadetblue;
+    }
+
+    .right{
+      width: 50vw;
+      height: 95vh;
+      background-color: beige;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title">INDIA MAP</h1>
+  <hr size="6" color="RED">
+  <div class="container">
+    <div class="left">
+      <img src="./example/India.png" usemap="#india">
+
+      <map name="india">
+        <area shape="rect" coords="321,324, 346, 347" alt="Delhi" href="https://portal.delhi.gov.in/">
+        <area shape="rect" coords="50, 260, 346, 500" alt="Rajasthan" href="https://rajasthan.gov.in/">
+        <area shape="rect" coords="321,324, 346, 347" alt="Maharashtra" href="https://www.maharashtra.gov.in/1125/Home">
+        <area shape="rect" coords="321,324, 346, 347" alt="Uttarakhand" href="https://uk.gov.in/">
+        <area shape="rect" coords="321,324, 346, 347" alt="Assam" href="https://assam.gov.in/">
+      </map>
+
+    </div>
+    <div class="right">
+    </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,11 @@
+.extenal{
+  color:black;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+  text-indent: 50px;
+  letter-spacing: 5px;
+  text-shadow: white 0.5px 0.5px;
+}

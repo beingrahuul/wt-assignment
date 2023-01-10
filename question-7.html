@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe</title>
+    <style>
+
+      .main-container{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      p{
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <p>iframe for image</p>
+        <iframe
+          src="./example/beingrahuul.jpg"
+          title="Image "
+          height="400px"
+          width="400px"
+        ></iframe>
+      </div>
+
+      <div class="container">
+        <p>iframe for video</p>
+        <iframe
+          src="./example/big.mp4"
+          title="W3Schools Free Online Web Tutorials"
+          height="400px"
+          width="700px"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="container">
+      <p>iframe for Webpage</p>
+        <iframe
+          src="./question-9.html"
+          title="W3Schools Free Online Web Tutorials"
+          height="400px"
+          width="700px"
+        ></iframe>
+      </div>
+
+      <div class="container">
+        <p>iframe for audio</p>
+        <iframe
+          src="./example/audio.mp3"
+          title="W3Schools Free Online Web Tutorials"
+          height="400px"
+          width="700px"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
